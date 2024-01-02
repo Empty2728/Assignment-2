@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white ">
+    <div class="container">
+        <img src="./img/logo.png" class="m-auto mt-3"  style="width: 55px;height: 50px;display: block;" alt="">
+       
+    </div>
+</nav>
+<section class="star_form">
+    <div class="container">
+        <div class="row">
+            <div class="text-center mt-3">
+                <h4 class="fw-bold">Creat an account</h4>
+                <p class="text-dark-emphasis mt-5">STARBUCKS &reg REWARDS</p>
+                <p class="text-black-50 fs-6">Join Starbucks Rewards to earn Stars for free food and drinks, any way you <br> pay. Get access to mobile ordering, a birthday Reward, and
+                    <a href="text-primary" >more.</a></p>
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-6 ">
+                <div class="border p-5  shadow shadow-md w-100 ">
+                        <p >indicates require field</p>
+                   <div>
+                       <form>
+                           <label for="name" >Your Name</label>
+                           <input type="text" id="name"  name="name" class="mb-4 w-100"><br>
+                           <h4 class="mb-3">Account Security</h4>
+                           <label for="" name="email"  >Your Email</label>
+                           <input type="email" class="w-100" placeholder="Email Address" id="" name="your_email">
+                           <p class="mb-3">This will be your answer.</p>
+                           <input class="w-100" type="password" placeholder="Password">
+                           <button type="button" id="show_password" name="show_password" class="btn b"></button>
+                           <p class="">Create a password 8 to 25 characters long that includes at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like an exclamation point or asterisk.</p>
+                           <a href="" class="text-primary fw-bold">Already have a Starbucks giftcard?</a>
+                           <p class=" mt-3">COLLECT MORE STARS & EARN REWARDS</p>
+                           <p class="text-black-50">Email is a great way to know about offers and what’s new from Starbucks.</p>
+                           <div class="form-check">
+                               <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+                               <label class="form-check-label  mb-3" for="flexCheck">
+                                   Yes, I’d like email from Starbucks
+                               </label>
+                           </div>
+                           <p class="mb-4 text-black-50">Know about initiatives, announcements and <br>product offers.</p>
+                           <h6 class="mb-4 fw-bold">Term of Use</h6>
+                       </form>
+                       <div class="form-check">
+                           <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                           <label class="form-check-label mb-4"  for="flexCheckIndeterminate">
+                               I agree to the <a href="">Starbucks® Rewards Terms <i class="bi bi-box-arrow-up-right"></i> </a> <br>
+                               and the <a href="">Starbucks Card Terms <i class="bi bi-box-arrow-up-right"></i> </a>
+                               and have <br> read the <a href="">Starbucks Privacy Statement <i class="bi bi-box-arrow-up-right"></i> </a>
+                               .
+                           </label>
+                       </div>
+                       <a href="" class="btn btn-primary rounded-pill py-2 shadow ">Create Account</a>
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function () {
+        $('show_password').on('click', function(){
+            var passwordField = $('#password')
+        });
+
+    })
+</script>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+$primary:hsl(151, 100%, 25%);
+$navbar-light-color:$primary;
+$btn-padding-x:30px;
+$font-family-sans-serif:'Poppins', sans-serif;
+
+
+$spacer: 1rem;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 6,
+        7: $spacer * 9,
+        8: $spacer * 12,
+        9: $spacer * 15,
+        10: $spacer * 18,
+        11: $spacer * 21
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        //xxl: 1320px
+);
+
+
+.logo{
+  width: 35px;
+  height: 35px;
+}
+
+#hero{
+  background-color: hsl(33, 44%, 85%);
+
+
+}
+
+.shop1{
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  left: 120px;
+top: -60px;
+
+
+}
+
+.shop2{
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  left: 95px;
+  top: -70px;
+
+}
+.shop3{
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  left: 120px;
+  top: -58px;
+
+}
+
+.shop-img:hover{
+  transform: translateY(-15px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.coffee-1{
+  background-color: hsl(154, 98%, 25%);
+}
+
+#about{
+  background-color: hsl(33, 44%, 85%);
+}
+
+.icon:hover{
+  transform: translateY(-5px);
+  transition: 1s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
